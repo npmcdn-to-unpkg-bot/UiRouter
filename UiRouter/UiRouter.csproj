@@ -117,8 +117,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\scripts\controllers\" />
-    <Folder Include="app\scripts\services\" />
+    <Folder Include="app\scripts\multi\" />
+    <Folder Include="app\templates\multi\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
