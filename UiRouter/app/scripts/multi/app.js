@@ -3,16 +3,16 @@ example.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('settings', {
             url: '/settings',
-            templateUrl: 'templates/settings.html'
+            templateUrl: 'app/templates/multi/settings.html'
         })
         .state('settings.profile', {
             url: '/profile',
-            templateUrl: 'templates/profile.html',
+            templateUrl: 'app/templates/multi/profile.html',
             controller: 'ProfileController'
         })
         .state('settings.account', {
             url: '/account',
-            templateUrl: 'templates/account.html',
+            templateUrl: 'app/templates/multi/account.html',
             controller: 'AccountController'
         });
     $urlRouterProvider.otherwise('/settings/profile');
