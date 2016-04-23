@@ -1,0 +1,8 @@
+﻿<h2>{{title}}</h2>
+<ul>
+    <li ng-repeat="friend in friends">{{friend.name}}: {{friend.age}}</li>
+</ul>
+
+<span>{{selectedValue}}</span>
+
+<select ng-model="selectedValue" ng-options="value for value in items"></select>
