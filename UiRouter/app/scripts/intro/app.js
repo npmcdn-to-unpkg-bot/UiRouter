@@ -4,7 +4,7 @@
         $urlRouterProvider.otherwise("/home");
         $stateProvider.state("home", {
             url: "/home",
-            templateUrl: "app/templates/home.html",
+            templateUrl: "app/templates/intro/home.html",
             controller: "homeController",
             resolve: {
                 friends: [
@@ -14,7 +14,7 @@
             }
         }).state("about", {
             url: "/about",
-            templateUrl: "app/templates/about.html",
+            templateUrl: "app/templates/intro/about.html",
             controller: "aboutController"
         });
     }]);
