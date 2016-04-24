@@ -14,6 +14,10 @@ example.config(function ($stateProvider, $urlRouterProvider) {
             url: '/account',
             templateUrl: 'app/templates/multi/account.html',
             controller: 'AccountController'
+        }).state('settings.tab3', {
+            url: '/tab3',
+            templateUrl: 'app/templates/multi/tab3.html',
+            controller: 'Tab3Controller'
         });
     $urlRouterProvider.otherwise('/settings/profile');
 })
