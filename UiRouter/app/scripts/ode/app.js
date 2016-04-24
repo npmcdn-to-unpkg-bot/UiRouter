@@ -1,4 +1,4 @@
-﻿var app = angular.module("routedTabs", ["ui.router"]);
+﻿var app = angular.module("routedTabs", ["ui.router", "ui.bootstrap"]);
 
 app.config(function ($stateProvider, $urlRouterProvider) {
 

@@ -2,13 +2,23 @@
     length: {{tabs.length}}
     <tabset>
         <tab ng-repeat="t in tabs"
-             heading="{{t.heading}}"
-             select="go(t.route)"
-             active="{{t.active}}">
+             heading="{{t.heading}}">
+
         </tab>
     </tabset>
     {{tabs[0].heading}}
     <h2>View:</h2>
     <div ui-view></div>
+
+    <tabset>
+        <tab>
+            <tab-heading>
+                <span>hello</span><em>1</em>
+            </tab-heading>
+            One
+        </tab>
+        <tab heading="Two">Two</tab>
+        <tab heading="Three">Three</tab>
+    </tabset>
 
 </div>
