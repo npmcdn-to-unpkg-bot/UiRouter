@@ -1,0 +1,14 @@
+﻿<div ng-controller="mainController">
+    length: {{tabs.length}}
+    <tabset>
+        <tab ng-repeat="t in tabs"
+             heading="{{t.heading}}"
+             select="go(t.route)"
+             active="{{t.active}}">
+        </tab>
+    </tabset>
+    {{tabs[0].heading}}
+    <h2>View:</h2>
+    <div ui-view></div>
+
+</div>
