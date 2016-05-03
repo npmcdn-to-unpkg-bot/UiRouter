@@ -1,5 +1,6 @@
-﻿angular.module('ui.bootstrap.demo', ['ngAnimate', 'ui.bootstrap']);
-angular.module('ui.bootstrap.demo').controller('ModalDemoCtrl', function ($scope, $uibModal, $log) {
+﻿var app = angular.module('ui.bootstrap.demo', ['ngAnimate', 'ui.bootstrap']);
+
+app.controller('ModalDemoCtrl', function ($scope, $uibModal, $log) {
 
     $scope.items = ['item1', 'item2', 'item3'];
 
