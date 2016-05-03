@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\scripts\modal\example.js" />
     <Content Include="app\scripts\multi\app.js" />
     <Content Include="app\scripts\ode\app.js" />
     <Content Include="app\scripts\ode\main-controller.js" />
@@ -79,14 +80,18 @@
     <Content Include="app\templates\ode\tab2.html" />
     <Content Include="app\templates\ode\tab3.html" />
     <Content Include="Content\ui-bootstrap-csp.css" />
+    <Content Include="index-modal.html" />
     <Content Include="index-ode.html" />
     <Content Include="index-test-ui.html" />
     <Content Include="packages.config" />
+    <Content Include="Scripts\angular-animate.js" />
+    <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-ui\ui-bootstrap-tpls.js" />
     <Content Include="Scripts\angular-ui\ui-bootstrap-tpls.min.js" />
     <Content Include="Scripts\angular-ui\ui-bootstrap.js" />
     <Content Include="Scripts\angular-ui\ui-bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
+    <Content Include="Scripts\angular-animate.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
