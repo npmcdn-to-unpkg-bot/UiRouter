@@ -75,6 +75,7 @@
     <Content Include="app\templates\multi\settings.html" />
     <Content Include="app\templates\multi\tab3.html" />
     <Content Include="app\templates\multi\tooltip.html" />
+    <Content Include="app\templates\modal\myModalContent.html" />
     <Content Include="app\templates\ode\main.html" />
     <Content Include="app\templates\ode\tab1.html" />
     <Content Include="app\templates\ode\tab2.html" />
