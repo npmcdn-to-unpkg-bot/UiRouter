@@ -67,14 +67,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\scripts\modal\example.js" />
-    <Content Include="app\scripts\multi\app.js" />
+    <Content Include="app\scripts\nested\app.js" />
     <Content Include="app\scripts\ode\app.js" />
     <Content Include="app\scripts\ode\main-controller.js" />
-    <Content Include="app\templates\multi\account.html" />
-    <Content Include="app\templates\multi\profile.html" />
-    <Content Include="app\templates\multi\settings.html" />
-    <Content Include="app\templates\multi\tab3.html" />
-    <Content Include="app\templates\multi\tooltip.html" />
+    <Content Include="app\templates\nested\account.html" />
+    <Content Include="app\templates\nested\profile.html" />
+    <Content Include="app\templates\nested\settings.html" />
+    <Content Include="app\templates\nested\tab3.html" />
+    <Content Include="app\templates\nested\tooltip.html" />
     <Content Include="app\templates\modal\myModalContent.html" />
     <Content Include="app\templates\ode\main.html" />
     <Content Include="app\templates\ode\tab1.html" />
@@ -116,7 +116,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index-intro.html" />
-    <Content Include="index-multi.html" />
+    <Content Include="index-nested.html" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular-ui-router.js" />
     <Content Include="Scripts\angular-ui-router.min.js" />
