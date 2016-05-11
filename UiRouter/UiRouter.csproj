@@ -70,6 +70,7 @@
     <Content Include="app\scripts\nested\app.js" />
     <Content Include="app\scripts\ode\app.js" />
     <Content Include="app\scripts\ode\main-controller.js" />
+    <Content Include="app\scripts\scotch-io\app.js" />
     <Content Include="app\templates\nested\account.html" />
     <Content Include="app\templates\nested\profile.html" />
     <Content Include="app\templates\nested\settings.html" />
@@ -80,9 +81,14 @@
     <Content Include="app\templates\ode\tab1.html" />
     <Content Include="app\templates\ode\tab2.html" />
     <Content Include="app\templates\ode\tab3.html" />
+    <Content Include="app\templates\scotch-io\partial-about.html" />
+    <Content Include="app\templates\scotch-io\partial-home-list.html" />
+    <Content Include="app\templates\scotch-io\partial-home.html" />
+    <Content Include="app\templates\scotch-io\table-data.html" />
     <Content Include="Content\ui-bootstrap-csp.css" />
     <Content Include="index-modal.html" />
     <Content Include="index-ode.html" />
+    <Content Include="index-scotch-io.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
