@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app-cr\demo\app.js" />
     <Content Include="app\scripts\modal\example.js" />
     <Content Include="app\scripts\nested\app.js" />
     <Content Include="app\scripts\ode\app.js" />
@@ -99,6 +100,7 @@
     <Content Include="Scripts\angular-ui\ui-bootstrap-tpls.min.js" />
     <Content Include="Scripts\angular-ui\ui-bootstrap.js" />
     <Content Include="Scripts\angular-ui\ui-bootstrap.min.js" />
+    <Content Include="index-cr-demo.html" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\angular-route.min.js.map" />
