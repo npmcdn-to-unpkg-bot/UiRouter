@@ -86,6 +86,7 @@
     <Content Include="app\templates\scotch-io\partial-home.html" />
     <Content Include="app\templates\scotch-io\table-data.html" />
     <Content Include="Content\ui-bootstrap-csp.css" />
+    <Content Include="index-mine.html" />
     <Content Include="index-modal.html" />
     <Content Include="index-ode.html" />
     <Content Include="index-scotch-io.html" />
@@ -147,7 +148,10 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="app\scripts\mine\" />
+    <Folder Include="app\templates\mine\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
