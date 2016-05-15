@@ -67,7 +67,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app-15\demo\app.js" />
-    <Content Include="app-15\demo\hero-service.js" />
     <Content Include="app-15\demo\heros.js" />
     <Content Include="app\scripts\modal\example.js" />
     <Content Include="app\scripts\nested\app.js" />
