@@ -97,6 +97,7 @@
     <Content Include="index-modal.html" />
     <Content Include="index-ode.html" />
     <Content Include="index-scotch-io.html" />
+    <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
