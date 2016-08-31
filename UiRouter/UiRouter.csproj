@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="app-15\demo\app.js" />
     <Content Include="app-15\demo\heros.js" />
+    <Content Include="app-final\router.es5.js" />
     <Content Include="app\scripts\modal\example.js" />
     <Content Include="app\scripts\nested\app.js" />
     <Content Include="app\scripts\ode\app.js" />
