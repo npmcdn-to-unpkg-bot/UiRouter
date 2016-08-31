@@ -89,6 +89,9 @@
     <Content Include="app\templates\scotch-io\table-data.html" />
     <Content Include="Content\ui-bootstrap-csp.css" />
     <Content Include="index-15-demo.html" />
+    <Content Include="index-final-new-router.html" />
+    <Content Include="index-final-ng-route.html" />
+    <Content Include="index-final-ui-router.html" />
     <Content Include="index-mine.html" />
     <Content Include="index-modal.html" />
     <Content Include="index-ode.html" />
@@ -157,6 +160,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app-final\ngRoute\" />
+    <Folder Include="app-final\ui-router\" />
+    <Folder Include="app-final\xNewRouter\" />
     <Folder Include="app\scripts\mine\" />
     <Folder Include="app\templates\mine\" />
   </ItemGroup>
