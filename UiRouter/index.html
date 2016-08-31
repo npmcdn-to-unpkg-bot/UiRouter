@@ -1,10 +1,24 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-	<meta charset="utf-8" />
+    <title>Angular UI Router</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="app/styles/main.css" rel="stylesheet" />
+    <meta charset="utf-8" />
 </head>
 <body>
+    <div class="container" ng-app="app">
+        <header ng-include src="'app/templates/intro/nav.html'"></header>
+        <div ui-view></div>
+        <footer ng-include src="'app/templates/intro/footer.html'"></footer>
+    </div>
 
+    <script src="Scripts/jquery-2.2.3.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-ui-router.js"></script>
+    <script src="app/scripts/intro/app.js"></script>
+    <script src="app/scripts/intro/controllers/homeController.js"></script>
+    <script src="app/scripts/intro/controllers/aboutController.js"></script>
+    <script src="app/scripts/intro/services/friends.js"></script>
 </body>
 </html>
